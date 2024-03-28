@@ -19,7 +19,7 @@ for i in range (l):
     msg['To'] = to_addr[i]
     msg['subject'] = 'Just to Check'
 
-    body = "Hello , How are you . I love you so much yrr . SEX KROGEE? Call:7780451128"
+    body = "Hello , How are you . I have send you the mail with the help of python scripts."
 
     msg.attach(MIMEText(body,'plain'))
 
